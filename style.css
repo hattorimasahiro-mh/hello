@@ -1,0 +1,140 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+}
+
+.header {
+  padding:5px 35px 5px 45px;
+  height: 65px; ;
+  background-color:#CCFFCC;
+  opacity:0.8;    
+  width:100%;
+  position:fixed;
+
+      
+}
+
+.header h1{
+      font-size: 28px;
+      float: left;
+      line-height: 65px;
+      font-family: serif;
+      padding-left:25px;
+      color:white;
+      text-shadow: 2px 2px 3px #000000;
+
+      
+}
+.header a{
+  float: right;
+  line-height: 30px;
+  padding:0 30px;
+  background:#00CCCC;
+  margin-top:18px;
+  margin-right:100px;
+}
+.container{
+  width: 100%;
+  margin:0 auto;
+  
+  
+}
+
+.top-wrapper{
+  background-image: url("../images/luca-bravo-VowIFDxogG4-unsplash.jpg");
+  background-size:cover;
+  padding:180px 0 480px 0;
+  
+  
+}
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+.btn-wrapper{
+  text-align: center;
+  margin: 100px 0;
+}
+.btn-wrapper p{
+  padding:20px ;
+}
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+.twitter {
+  background-color: #55acee;
+}
+.signup {
+  background-color:brown;
+}
+
+.heading {
+  text-align: center;
+  padding: 90px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:30px;
+  
+}
+
+.heading br{
+  font-size:10px;
+}
+.ai{
+  font-size: 25px;
+  border-bottom: solid 1px #000000;
+}
+.lesson{
+  float:left;
+  padding-right:5px;
+  margin: 0 auto;
+  text-align: center;
+  padding-left:20px;
+  
+}
+.lesson p{
+  font-size: 60px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#33CC99;
+  
+}
+.gazou{
+  box-shadow: 10px 10px 30px #000000;
+}
+.lesson-wrapper{
+  background-color: beige;
+  height:1000px;
+}
+
+.lesson-icon{
+  text-shadow: 3px 3px 5px #000000;
+}
+.message-wrapper{
+  border-bottom: 1px solid #000000;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #FFFFDD;
+}
+.message{
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+  
+}
+.hattori{
+  padding:70px 0px ;
+  font-family: Georgia;
+  text-align: center
+  
+}
